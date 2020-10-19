@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Demo</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./Frontend_test_1.css">
+    <script src="./Frontend_test_1.js"></script>
+</head>
+
+<body class="p-0 m-0">
+    <!-- Hero Image and text -->
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Image -->
+                <img class="image-fluid w-100" src="Assets/hero.jpg" alt="heroImage" />
+                <!-- Image -->
+                <!-- Content -->
+                <div class="carousel-caption carousel-caption-main text-sm-left">
+                       <p class="lightWhite mainImageFont m-0">Turn your videos &</p>
+                    <p class="lightWhite mainImageFont m-0">picture into a movie</p>
+                    <p class="lightWhite mainImageFont m-0">with just one click. </p>
+                </div>
+                <!-- Content -->
+            </div>
+        </div>
+    </div>
+    <!-- Hero Image and text -->
+
+    <!-- Header Text -->
+    <div class="container-fluid text-center">
+        <p class="lightBlack m-0 headerText">Tell Amazing Storeis</p>
+        <p class="lightBlack headerText2 mb-0">Editing software that brings your videos and pictures together in
+            one movie.</p>
+    </div>
+    <!-- Header Text -->
+
+    <!-- Image and Content 1 -->
+    <div class="container-fluid mx-0 py-sm-5 py-4">
+        <div class="row d-flex flex-row justify-content-around align-items-center" id="flipDiv">
+            <!-- Image -->
+            <div class="col-sm-4">
+                <img class="img-fluid w-100" src="Assets/computer1.jpg" alt="computer1">
+            </div>
+            <!-- Image -->
+            <!-- Content -->
+            <div class="col-sm-8 pl-md-5 pl-sm-4">
+                <p class="regRed text-center text-sm-left pb-md-3 containHeader">Cusomize Your Moments</p>
+                <p class="lightBlack pr-md-5 text-center text-sm-left pb-md-3 pr-md-5 containBody">Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit.
+                    Beatae, reiciendis! Nisi, impedit. Praesentium maxime pariatur harum? Odio at accusantium architecto
+                    perferendis ex rerum ullam fuga corrupti autem, veritatis, provident debitis?Maxime, minima. Sint
+                    quam maxime repellendus architecto expedita amet quia soluta nisi dolor quod eaque porro, vitae
+                    minima explicabo asperiores, corrupti necessitatibus omnis natus adipisci exercitationem? Dolorum
+                    nulla sapiente asperiores.</p>
+                <div class="text-center text-sm-left">
+                    <button class="btn btn-outline-danger regRed w-25 text-center text-sm-left containFooter btn-disable"
+                        id="flip">Flip</button>
+                </div>
+            </div>
+            <!-- Content -->
+        </div>
+    </div>
+    <!-- Image and Content 1 -->
+
+    <!-- Image and Content 2 -->
+    <div class="container-fluid mx-0 pb-sm-5 pb-3">
+        <div class="row d-flex flex-row justify-content-around align-items-center">
+            <!-- Image -->
+            <div class="col-sm-4 order-sm-12">
+                <img class="img-fluid w-100" src="Assets/computer2.jpg" id="computer2" alt="computer2">
+                <img class="img-fluid w-100" src="Assets/computer2b.jpg" style="display: none;" alt="computer2b"
+                    id="computer2b">
+            </div>
+            <!-- Image -->
+            <!-- Content -->
+            <div class="col-sm-8 pl-md-5 pl-sm-4">
+                <p class=" regRed text-center text-sm-left pb-md-3 containHeader">Automatic Crop & Zoom</p>
+                <p class="lightBlack pr-md-5 text-center text-sm-left pb-md-3 containBody">Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                    Beatae, reiciendis! Nisi, impedit. Praesentium maxime pariatur harum? Odio at accusantium architecto
+                    perferendis ex rerum ullam fuga corrupti autem, veritatis, provident debitis?Maxime, minima. Sint
+                    quam maxime repellendus architecto expedita amet quia soluta nisi dolor quod eaque porro, vitae
+                    minima explicabo asperiores, corrupti necessitatibus omnis natus adipisci exercitationem? Dolorum
+                    nulla sapiente asperiores.</p>
+                <div class="text-center text-sm-left">
+                    <button class="btn btn-outline-danger regRed w-25 text-center text-sm-left containFooter"
+                        id="changeImg">Change</button>
+                </div>
+            </div>
+            <!-- Content -->
+        </div>
+    </div>
+    <!-- Image and Content 2-->
+
+    <!-- Close Image -->
+    <div class="carousel mb-sm-1" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Image -->
+                <img class="image-fluid w-100" src="Assets/closing-photo.jpg" alt="closing-photo">
+                <!-- Image -->
+                <div class="carousel-caption carousel-caption-closeImg align-middle text-block">
+                    <div class="my-sm-3 my-2">
+                        <!-- Content -->
+                        <div class="mb-3 mb-sm-4 mb-md-5">
+                            <p class="regWhite closeImageHeaderFont m-0">Free trial. No credit card. No Hassle.</p>
+                            <p class="lightWhite closeImageFont m-0">Just enter your email address below
+                                and
+                                begin capturing moments.</p>
+                        </div>
+                    
+                        <!-- Content -->
+                        <!-- form -->
+                        <div class="d-flex flex-row justify-content-around align-items-center">
+                            <form action="">
+                                <div class="row formCenter">
+                                    <div>
+                                        <input type="email" class="form-control form-control-sm" id="email"
+                                            style="border-radius: 0; border: 0;" placeholder="enter your email address"
+                                            name="email">
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-sm lightWhite"
+                                            style="border-radius: 0; background-color: #ee4023;">Start Free
+                                            Trial</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Close Image -->
+
+    <!-- Footer Image -->
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- image -->
+                <img class="w-100" src="Assets/geometric-band.jpg" style="max-height: 100px;" alt="geometric-band">
+                <!-- image -->
+                <!-- content -->
+                <div class="carousel-caption" style="bottom: 0; padding-bottom: 0;">
+                    <p class="lightWhite bottomImgFont" style="margin: 1%;">Sitemap | Legal | Blog</p>
+                </div>
+                <!-- content -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer Image -->
+</body>
+
+</html>
